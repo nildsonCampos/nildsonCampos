@@ -111,7 +111,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,237,198);
 
 	this.addChild(this.shape);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(0,0,1336,213.6);
+p.nominalBounds = new cjs.Rectangle(0,0,2004,214);
 
 // Texto da noticia
 (lib.Símbolo1 = function() {
@@ -138,7 +138,7 @@ p.nominalBounds = new cjs.Rectangle(-476.1,-50,978.7,145.5);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-668,-375.7,1336,752);
+p.nominalBounds = new cjs.Rectangle(-668,-375.7,2004,1128);
 
 
 (lib.FundoTextomc = function() {
@@ -210,7 +210,7 @@ p.nominalBounds = new cjs.Rectangle(-291.5,-55,978.7,145.5);
 
 	this.addChild(this.instance,this.Imagem);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-28,-15.3,1336,752);
+p.nominalBounds = new cjs.Rectangle(-28,-15.3,2004,1128);
 
 
 // stage content:
