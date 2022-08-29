@@ -113,15 +113,15 @@ p.nominalBounds = new cjs.Rectangle(0,0,237,198);
 }).prototype = p = new cjs.Container();
 p.nominalBounds = new cjs.Rectangle(0,0,1336,213.6);
 
-
+// Texto da noticia
 (lib.Símbolo1 = function() {
 	this.initialize();
 
 	// Camada 1 Somente o texto
-	this.Titulo = new cjs.Text("AxTV - canais abertos em HD via AxFibra.", "40px 'Gotham Book'", "#FFFFFF");
+	this.Titulo = new cjs.Text("AxTV - Canais abertos em HD via AxFibra.", "40px 'Gotham Book'", "#FFFFFF");
 	this.Titulo.name = "Titulo";
 	this.Titulo.lineHeight = 40;
-	this.Titulo.lineWidth = 1000;
+	this.Titulo.lineWidth = 1360;
 	this.Titulo.setTransform(-480,-100);
 
 	this.addChild(this.Titulo);
