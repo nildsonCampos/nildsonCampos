@@ -46,29 +46,29 @@ p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
 //	this.initialize(img.Bitmap4);
 //}).prototype = p = new cjs.Bitmap();
 //p.nominalBounds = new cjs.Rectangle(0,0,156,124);
-
 //-------------------------------------------------
+
 // ?
 //(lib.Bitmap5 = function() {
 //	this.initialize(img.Bitmap5);
 //}).prototype = p = new cjs.Bitmap();
 //p.nominalBounds = new cjs.Rectangle(0,0,159,128);
-
 //------------------------------------------------
-// Da logo do canal de noticia
+
+	// Da logo do canal de noticia
 (lib.Bitmap6 = function() {
 	this.initialize(img.Bitmap6);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,237,198);
-
 //------------------------------------------------
+
 // Da logo no rodape (AxTV)
 	(lib.Bitmap7 = function() {
 	this.initialize(img.Bitmap7);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,180,60);
-
 //------------------------------------------------
+
 // Efeito no titulo da noticia
 (lib.shadowproject = function() {
 	this.initialize(img.shadowproject);
