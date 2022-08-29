@@ -3,6 +3,7 @@
 var p; // shortcut to reference prototypes
 
 // library properties:
+	
 lib.properties = {
 	width: 1920,
 	height: 1080,
@@ -20,64 +21,62 @@ lib.properties = {
 	]
 };
 
-
-
-// symbols:
-
-
-
+// imagens
+	
+// De fundo da noticia + 4,4%
 (lib.Bitmap1 = function() {
 	this.initialize(img.Bitmap1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1336,752);
+p.nominalBounds = new cjs.Rectangle(0,0,2004,1128);
 
-
+// De fundo da noticia
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,720);
+p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
 
+// ?
+//(lib.Bitmap3 = function() {
+//	this.initialize(img.Bitmap3);
+//}).prototype = p = new cjs.Bitmap();
+//p.nominalBounds = new cjs.Rectangle(0,0,160,124);
 
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,160,124);
-
-
-(lib.Bitmap4 = function() {
-	this.initialize(img.Bitmap4);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,156,124);
+// ?
+//(lib.Bitmap4 = function() {
+//	this.initialize(img.Bitmap4);
+//}).prototype = p = new cjs.Bitmap();
+//p.nominalBounds = new cjs.Rectangle(0,0,156,124);
 
 //-------------------------------------------------
-
-(lib.Bitmap5 = function() {
-	this.initialize(img.Bitmap5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,159,128);
+// ?
+//(lib.Bitmap5 = function() {
+//	this.initialize(img.Bitmap5);
+//}).prototype = p = new cjs.Bitmap();
+//p.nominalBounds = new cjs.Rectangle(0,0,159,128);
 
 //------------------------------------------------
-
+// Da logo do canal de noticia
 (lib.Bitmap6 = function() {
 	this.initialize(img.Bitmap6);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,237,198);
 
 //------------------------------------------------
-(lib.Bitmap7 = function() {
+// Da logo no rodape (AxTV)
+	(lib.Bitmap7 = function() {
 	this.initialize(img.Bitmap7);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,237,198);
+p.nominalBounds = new cjs.Rectangle(0,0,180,60);
 
 //------------------------------------------------
-
+// Efeito no titulo da noticia
 (lib.shadowproject = function() {
 	this.initialize(img.shadowproject);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,438,36);
-
 //-------------------------------------------------
 
+// Substitui a imagem do canal de noticia quando não informado
 (lib.Símbolo4 = function() {
 	this.initialize();
 
@@ -87,9 +86,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,438,36);
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
 p.nominalBounds = new cjs.Rectangle(0,0,237,198);
-
 //------------------------------------------------
 
+// Ajusta imagem do canal de noticia
 (lib.Símbolo3 = function() {
 	this.initialize();
 
@@ -99,11 +98,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,237,198);
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
 p.nominalBounds = new cjs.Rectangle(0,0,237,198);
+//------------------------------------------------
 
-//-----------------------------------------------
-
-
-
+// Titulo da noticia
 (lib.Símbolo2 = function() {
 	this.initialize();
 
@@ -121,7 +118,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,1336,213.6);
 	this.initialize();
 
 	// Camada 1 Somente o texto
-	this.Titulo = new cjs.Text("Novo Citroën C3 estreia em agosto com opções de motorização 1.5 e 1.6 e três versões", "40px 'Gotham Book'", "#FFFFFF");
+	this.Titulo = new cjs.Text("AxTV - canais abertos em HD via AxFibra.", "40px 'Gotham Book'", "#FFFFFF");
 	this.Titulo.name = "Titulo";
 	this.Titulo.lineHeight = 40;
 	this.Titulo.lineWidth = 1000;
